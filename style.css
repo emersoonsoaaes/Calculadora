@@ -83,8 +83,14 @@ body {
   background-color: inherit;
   color: inherit;
 }
+
 .calc-button:hover {
   background-color: inherit;
+}
+
+.calc-button:last-child:active {
+  background: linear-gradient(320deg, #232526, #414345);
+  color: #fff;
 }
 .calc-button:active {
   background: linear-gradient(320deg, #232526, #414345);
